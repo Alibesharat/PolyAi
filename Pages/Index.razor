@@ -27,11 +27,11 @@
             <fieldset>
               <legend class="pure-steps_group-step_legend">Sign Up</legend>
               <p class="pure-steps_group-step_item flexy-item flexy-column reverse">
-                <input type="text" placeholder="Type your email here" value="" id="input_email">
+                <input type="text" placeholder="Type your email here" @bind-value="emailAddress" id="input_email">
                 <label for="input_email">Email</label>
               </p>
               <p class="pure-steps_group-step_item flexy-item flexy-column reverse">
-                <input type="text" placeholder="Type your nick here" value="" id="input_nick">
+                <input type="text" placeholder="Type your nick here" @bind-value="name" id="input_nick">
                 <label for="input_nick">Nick</label>
               </p>
               <p class="pure-steps_group-step_item flexy-item flexy-column reverse">
