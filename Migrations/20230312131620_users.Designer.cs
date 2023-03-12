@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Primal_e.Data.Models;
 
@@ -10,9 +11,11 @@ using Primal_e.Data.Models;
 namespace Primal_e.Migrations
 {
     [DbContext(typeof(PolyAiContext))]
-    partial class PolyAiContextModelSnapshot : ModelSnapshot
+    [Migration("20230312131620_users")]
+    partial class users
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.3");
