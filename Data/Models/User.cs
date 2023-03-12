@@ -10,10 +10,10 @@ namespace Primal_e.Data
     {
         [Key]
         public Guid Ic { get; set; }
-        
+
         public string Name { get; set; }
 
-        public string Email { get; set; }
+        public string emailAddress { get; set; }
 
         public string Password { get; set; }
     }
