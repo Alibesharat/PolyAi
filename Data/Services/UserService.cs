@@ -22,8 +22,8 @@ namespace Primal_e.Data.Services
                 return response;
             }
             await _db.Users.AddAsync(user, cancellationToken);
-           
-            response.Statues =  _db.SaveChanges();;
+
+            response.Statues = _db.SaveChanges() > 0;
             response.Message = "The user Added successfully";
             return response;
 
