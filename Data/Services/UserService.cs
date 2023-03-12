@@ -15,7 +15,7 @@ namespace Primal_e.Data.Services
         public async Task<AddUserResponse> AddUserAsync(User user, CancellationToken cancellationToken = default(CancellationToken))
         {
             AddUserResponse response = new AddUserResponse();
-            if (IsUserExist(user.emailAddress))
+            if (IsUserExist(user.EmailAddress))
             {
                 response.Statues = false;
                 response.Message = "The user already exists";
@@ -31,7 +31,7 @@ namespace Primal_e.Data.Services
 
         private bool IsUserExist(string emailAddress)
         {
-            return _db.Users.Any(c => c.emailAddress == emailAddress);
+            return _db.Users.Any(c => c.EmailAddress == emailAddress);
         }
     }
 }

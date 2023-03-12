@@ -35,7 +35,7 @@
                 <label for="input_nick">Nick</label>
               </p>
               <p class="pure-steps_group-step_item flexy-item flexy-column reverse">
-                <input type="password" placeholder="Type your password here" value="" id="input_password">
+                <input type="password" @bind-value="password" placeholder="Type your password here" id="input_password">
                 <label for="input_password">Password</label>
               </p>
             </fieldset>
@@ -56,7 +56,7 @@
             <label for="step-1">Sign Up</label>
           </li>
           <li class="pure-steps_group-triggers_item">
-            <label for="step-2">Jump in</label>
+            <label for="step-2" @onclick="register">Jump in</label>
           </li>
         </ol>
       </div>
@@ -67,4 +67,14 @@
 
 @code
 {
+
+  string emailAddress;
+  string name;
+  string password;
+ 
+  async Task register()
+   {
+       var user =new User(emailAddress,name,password);
+       var IsAdded =await UserService.AddUserAsync(user);
+   }
 }

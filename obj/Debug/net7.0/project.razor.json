@@ -50,43 +50,6 @@
         }
       },
       {
-        "HashCode": 214812423,
-        "Kind": "Components.Component",
-        "Name": "Primal_e.Pages.Index",
-        "AssemblyName": "Primal-e",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Primal_e.Pages.Index",
-          "Common.TypeNamespace": "Primal_e.Pages",
-          "Common.TypeNameIdentifier": "Index"
-        }
-      },
-      {
-        "HashCode": 1799128301,
-        "Kind": "Components.Component",
-        "Name": "Primal_e.Pages.Index",
-        "AssemblyName": "Primal-e",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Primal_e.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Primal_e.Pages.Index",
-          "Common.TypeNamespace": "Primal_e.Pages",
-          "Common.TypeNameIdentifier": "Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 281638108,
         "Kind": "Components.Component",
         "Name": "Primal_e.Pages.FetchData",
@@ -120,6 +83,43 @@
           "Common.TypeName": "Primal_e.Pages.FetchData",
           "Common.TypeNamespace": "Primal_e.Pages",
           "Common.TypeNameIdentifier": "FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 214812423,
+        "Kind": "Components.Component",
+        "Name": "Primal_e.Pages.Index",
+        "AssemblyName": "Primal-e",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Primal_e.Pages.Index",
+          "Common.TypeNamespace": "Primal_e.Pages",
+          "Common.TypeNameIdentifier": "Index"
+        }
+      },
+      {
+        "HashCode": 1799128301,
+        "Kind": "Components.Component",
+        "Name": "Primal_e.Pages.Index",
+        "AssemblyName": "Primal-e",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Primal_e.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Primal_e.Pages.Index",
+          "Common.TypeNamespace": "Primal_e.Pages",
+          "Common.TypeNameIdentifier": "Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
